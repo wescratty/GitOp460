@@ -1,0 +1,57 @@
+README
+
+
+Libraries Included
+  -----------
+
+<sys/stat.h> 	 -  For mode constants
+
+ <fcntl.h>  	 -  For O_* constants
+ 
+ <unistd.h>		 -  standard symbolic constants and types
+ 
+ <pthread.h>	 -  threads
+ 
+ <semaphore.h>	 -  semaphores
+ 
+ <sys/errno.h> 	 -  It defines macros for reporting and retrieving error conditions through error codes stored in a static memory location called errno (short for "error number").
+
+ <sys/types.h> 	 -  types are defined for alignment with the POSIX Realtime Extension.
+
+ <sys/ipc.h> 	 -  used by three mechanisms for interprocess communication (IPC): messages,   	semaphores and shared memory. 
+
+ <sys/msg.h> 	 -	defines the following constant and members of the structure msqid_ds.
+
+ <stdio.h> 		 -	positive integral constant expressions
+
+ <stdlib.h> 	 -	Standard library
+
+ <string.h> 	 -	must be provided for use with an ISO C compiler.
+
+ <signal.h> 	 -	Allows me to have a signal listener to catch a control+C
+
+  What is it?
+  -----------
+	This program simulates the producer consumer problem and solves them with semaphores
+
+
+
+ How to compile
+  -----------
+	Type make and press enter.
+
+
+  How to Run
+  -----------
+	Type ./prodcon <int time, int producers, int consumers> and press enter.(no inequalities of commas, just e.g.  ./prodcon 5 3 2
+
+
+  How to End
+  -----------
+	The first perimeter "time" will end the program in that many seconds. Or control + C
+	
+
+ Contacts
+ --------
+	Wescratty@gmail.com
+ 
